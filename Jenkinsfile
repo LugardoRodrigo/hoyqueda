@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Install') {
             steps {
-                git branch: 'main', url: 'https://github.com/LugardoRodrigo/https://github.com/LugardoRodrigo/hoyqueda.git'
+                git branch: 'main', url: 'https://github.com/LugardoRodrigo/hoyqueda.git'
                 bat 'npm install'
             }
         }
